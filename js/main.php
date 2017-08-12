@@ -24,7 +24,7 @@ $(document).ready(function() {
     $('.generator-form .cc-btn-wrap').animateCSS("bounceInUp", {
         delay: 500
     });
-    var messages = ['<img src="img/coins.png" style="max-height: 15px;"/> 50,000 Münzen generiert!', '<img src="img/coins.png" style="max-height: 15px;"/> 80,000 Münzen generiert!', '<img src="img/coins.png" style="max-height: 15px;"/> 25,500 Münzen generiert!', '<img src="img/coins.png" style="max-height: 15px;"/> 65,000 Münzen generiert!', '<img src="img/coins.png" style="max-height: 15px;"/> 99,999 Münzen generiert!', 'seine <img src="img/gems.PNG" style="max-height: 15px;"/> Toads zu 10.000 aufgefüllt!', 'seine <img src="img/gems.PNG" style="max-height: 15px;"/> Toads zu 99.999 aufgefüllt!', 'seine <img src="img/gems.PNG" style="max-height: 15px;"/> Toads zu 50.000 aufgefüllt!', 'seine <img src="img/raffle-tickets.png" style="max-height: 15px;"/> Raffle Tickets zu 99.999 aufgefüllt!', 'seine <img src="img/raffle-tickets.png" style="max-height: 15px;"/> Raffle Tickets zu 99.999 aufgefüllt!', 'seine <img src="img/raffle-tickets.png" style="max-height: 15px;"/> Raffle Tickets zu 5000 aufgefüllt!', ];
+    var messages = ['<img src="img/coins.PNG" style="max-height: 15px;"/> 50,000 Münzen generiert!', '<img src="img/coins.PNG" style="max-height: 15px;"/> 80,000 Münzen generiert!', '<img src="img/coins.PNG" style="max-height: 15px;"/> 25,500 Münzen generiert!', '<img src="img/coins.PNG" style="max-height: 15px;"/> 65,000 Münzen generiert!', '<img src="img/coins.PNG" style="max-height: 15px;"/> 99,999 Münzen generiert!', 'seine <img src="img/gems.PNG" style="max-height: 15px;"/> Toads zu 10.000 aufgefüllt!', 'seine <img src="img/gems.PNG" style="max-height: 15px;"/> Toads zu 99.999 aufgefüllt!', 'seine <img src="img/gems.PNG" style="max-height: 15px;"/> Toads zu 50.000 aufgefüllt!', 'seine <img src="img/raffle-tickets.png" style="max-height: 15px;"/> Raffle Tickets zu 99.999 aufgefüllt!', 'seine <img src="img/raffle-tickets.png" style="max-height: 15px;"/> Raffle Tickets zu 99.999 aufgefüllt!', 'seine <img src="img/raffle-tickets.png" style="max-height: 15px;"/> Raffle Tickets zu 5000 aufgefüllt!', ];
     changeUpdateMessage();
     timer = new Date().valueOf() + (5 * 60 * 1000);
     $(".timer").countdown(timer.toString(), function(event) {
@@ -141,7 +141,7 @@ $(document).ready(function() {
 
     function confirmDialogOpen(gems, gold, elixir, callback) {
         bootbox.dialog({
-            message: "<p>Do you want to add the selected resources below to your Yu Gi Oh Duel Links Account?</p><p><img src='img/coins.png' height='20px'/> " + gems + ".</p><p><img src='img/gems.PNG' height='20px'/> " + gold + ".</p><p><img src='img/raffle-tickets.png' height='20px'/> " + elixir + ".</p><p>Click Continue to get them now!</p>",
+            message: "<p>Do you want to add the selected resources below to your Yu Gi Oh Duel Links Account?</p><p><img src='img/coins.PNG' height='20px'/> " + gems + ".</p><p><img src='img/gems.PNG' height='20px'/> " + gold + ".</p><p><img src='img/raffle-tickets.png' height='20px'/> " + elixir + ".</p><p>Click Continue to get them now!</p>",
             title: "Please confirm",
             buttons: {
                 main: {
