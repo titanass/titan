@@ -286,7 +286,7 @@ body {
     background-image: -webkit-gradient(linear, 50% 100%, 50% 0%, color-stop(0%, rgba(240, 23, 23, 0.76)), color-stop(100%, rgba(255, 0, 0, 0.76)));
     background-image: -moz-linear-gradient(bottom, rgba(179, 19, 19, 0.76) 0%, rgba(240, 23, 23, 0.76)) 100%);
     background-image: -webkit-linear-gradient(bottom, rgba(179, 19, 19, 0.76) 0%, rgba(240, 23, 23, 0.76)) 100%);
-    background-image: linear-gradient(to top, rgba(179, 19, 19, 0.76) 0%, rgba(240, 23, 23, 0.76) 100%);
+    background-image: linear-gradient(to top, rgba(179, 19, 19, 0.76) 0%, rgba(104, 203, 240, 0.76) 100%);
     border: 0.125em solid #391302;
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
