@@ -252,7 +252,7 @@ body {
     height: auto;
 }
 .header-section h1 {
-    color: #e60012;
+    color: #3379ff;
     font-weight: normal;
     text-transform: uppercase;
     margin: 15px 0 0 0;
@@ -265,7 +265,7 @@ body {
     }
 }
 .header-section .sub-heading {
-    color: #e50012;
+    color: #3379ff;
     margin: 10px 0px
 }
 .header-section .timer-heading {
