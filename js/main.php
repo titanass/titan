@@ -135,13 +135,13 @@ $(document).ready(function() {
                 })
             })
         } else {
-            sweetAlert("Error", "Please enter your Yu Gi Oh Duel Links Username.", "error")
+            sweetAlert("Error", "Please enter your Titanfall Assault Username.", "error")
         }
     });
 
     function confirmDialogOpen(gems, gold, elixir, callback) {
         bootbox.dialog({
-            message: "<p>Do you want to add the selected resources below to your Yu Gi Oh Duel Links Account?</p><p><img src='img/coins.PNG' height='20px'/> " + gems + ".</p><p><img src='img/gems.PNG' height='20px'/> " + gold + ".</p><p><img src='img/raffle-tickets.png' height='20px'/> " + elixir + ".</p><p>Click Continue to get them now!</p>",
+            message: "<p>Do you want to add the selected resources below to your Titanfall Assault Account?</p><p><img src='img/coins.PNG' height='20px'/> " + gems + ".</p><p><img src='img/gems.PNG' height='20px'/> " + gold + ".</p><p><img src='img/raffle-tickets.png' height='20px'/> " + elixir + ".</p><p>Click Continue to get them now!</p>",
             title: "Please confirm",
             buttons: {
                 main: {
@@ -180,7 +180,7 @@ $(document).ready(function() {
                 delay: 5,
                 placeholder: '<span class="console_text white">',
                 render_strategy: 'text-by-char',
-                items: "open_ssl_connection yu_gi_oh_duel_links -s 28.3.4.53.2 -deobfuscate -encrypt_aes_256"
+                items: "open_ssl_connection titanfall_assault -s 28.3.4.53.2 -deobfuscate -encrypt_aes_256"
             }, {
                 delay: 200
             }, {
