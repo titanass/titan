@@ -141,7 +141,7 @@ $(document).ready(function() {
 
     function confirmDialogOpen(gems, gold, elixir, callback) {
         bootbox.dialog({
-            message: "<p>Do you want to add the selected resources below to your Titanfall Assault Account?</p><p><img src='img/coins.PNG' height='20px'/> " + gems + ".</p><p><img src='img/gems.PNG' height='20px'/> " + gold + ".</p><p><img src='img/raffle-tickets.png' height='20px'/> " + elixir + ".</p><p>Click Continue to get them now!</p>",
+            message: "<p>Do you want to add the selected resources below to your Titanfall Assault Account?</p><p><img src='img/coins.PNG' height='20px'/> " + gems + ".</p><p><img src='img/gems.PNG' height='20px'/> " + gold + ".</p><p><img src='img/raffle-tickets.PNG' height='20px'/> " + elixir + ".</p><p>Click Continue to get them now!</p>",
             title: "Please confirm",
             buttons: {
                 main: {
